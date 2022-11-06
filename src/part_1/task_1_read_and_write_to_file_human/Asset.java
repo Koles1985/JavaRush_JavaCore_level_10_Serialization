@@ -26,7 +26,7 @@ public class Asset {
 
         Asset asset = (Asset) o;
 
-        if(Double.compare(asset.price, price) !=0)
+        if(Double.compare(asset.price, price) != 0)
             return false;
 
         return name != null ? name.equals(asset.name) : asset.name == null;
